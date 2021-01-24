@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GET TO GO Driver App</string>
+    <string name="google_maps_key">AIzaSyBqLsXyr7sniC1ATs-E7-AI15U4v_qpkug</string>
+    <string name="server_url">http://localhost/gettogo/</string>
+
+    <string name="home">Home</string>
+    <string name="logout">logout</string>
+</resources>
