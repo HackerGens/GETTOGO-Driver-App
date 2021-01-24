@@ -25,7 +25,8 @@ import java.net.URLEncoder;
 
 public class LoginActivity extends AppCompatActivity {
     EditText txtEmail, txtPassword;
-    Button btnLogin;
+    Button btnLogin,btn_register;
+
     String PREFS_NAME = "auth_info";
 
     @Override
@@ -38,6 +39,16 @@ public class LoginActivity extends AppCompatActivity {
 
         txtEmail = (EditText) findViewById(R.id.txtEmail);
         txtPassword = (EditText) findViewById(R.id.txtPassword);
+
+        btn_register = (Button) findViewById(R.id.navRegister);
+
+        btn_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnLogin = (Button) findViewById(R.id.btnLogin);
 
