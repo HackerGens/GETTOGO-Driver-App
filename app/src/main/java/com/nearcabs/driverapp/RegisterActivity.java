@@ -36,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
     private GoogleApiClient client;
     EditText txtName, txtPhone, txtEmail, txtPassword, txtCabno;
     Button btnRegister;
-    TextView txtAlreadyRegistered;
+    Button txtAlreadyRegistered;
     String PREFS_NAME = "auth_info";
 
 
@@ -73,7 +73,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        txtAlreadyRegistered = (TextView) findViewById(R.id.txtAlreadyRegistered);
+        txtAlreadyRegistered = (Button) findViewById(R.id.btn_AlreadyRegistered);
         txtAlreadyRegistered.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -5,4 +5,16 @@
 
     <string name="home">Home</string>
     <string name="logout">logout</string>
+    <string name="email">Email</string>
+    <string name="password_login">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="no_account">No account</string>
+    <string name="sign_up">Signup</string>
+    <string name="register">Register</string>
+    <string name="already_account">All ready have an account?</string>
+    <string name="email_login">Email</string>
+    <string name="name_login">Name</string>
+    <string name="phone_login">Phone</string>
+    <string name="car_no">Vehicle No</string>
 </resources>
