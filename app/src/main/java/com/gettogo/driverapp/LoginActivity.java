@@ -1,4 +1,4 @@
-package com.nearcabs.driverapp;
+package com.gettogo.driverapp;
 
 
 import android.content.Intent;
@@ -11,13 +11,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.json.JSONObject;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.FragmentActivity;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.FragmentActivity;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

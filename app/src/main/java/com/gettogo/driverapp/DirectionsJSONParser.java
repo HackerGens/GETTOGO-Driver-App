@@ -1,4 +1,4 @@
-package com.nearcabs.driverapp;
+package com.gettogo.driverapp;
 
 /**
  * Created by Anup on 7/7/2017.

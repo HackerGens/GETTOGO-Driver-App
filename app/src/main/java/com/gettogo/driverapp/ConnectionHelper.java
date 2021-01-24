@@ -1,4 +1,4 @@
-package com.nearcabs.driverapp;
+package com.gettogo.driverapp;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

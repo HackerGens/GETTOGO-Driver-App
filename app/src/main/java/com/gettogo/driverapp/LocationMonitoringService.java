@@ -1,4 +1,4 @@
-package com.nearcabs.driverapp;
+package com.gettogo.driverapp;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Service;

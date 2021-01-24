@@ -1,4 +1,4 @@
-package com.nearcabs.driverapp;
+package com.gettogo.driverapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
